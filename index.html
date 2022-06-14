@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <lin rel="icon" type="image/png" href="img/techis-logo.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-       <link rel="stylesheet" href="style.css">
-        <title>Portfolio</title>
-    </head>
-    
-    
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-            <div class="container">
-                <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-              <ul class="navbar-nav ms-auto mb-2">
-                <li class="nav-item">
-                  <a class="nav-link font-black" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                 <a class="nav-link font-black" href="#project">Projects</a>
-                 </li>
-              </ul>
-          
-            </div>
-          </nav>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <lin rel="icon" type="image/png" href="img/techis-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
 
-    </body>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ms-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link font-black" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-black" href="#project">Projects</a>
+          </li>
+        </ul>
+
+      </div>
+  </nav>
+  <div id="about">
+    <h2><span class="font-primary">A</span>bout</h2>
+    <img src="sample-woman.jpg">
+    <div class="name">Tykeisha Durgin</div>
+    <div class="vocation">Web Application Developer</div>
+    <div class="skills"> HTML / CSS / JavaScript / React.js / Redux / Python / Django / Express.js / AWS (Basics) /
+      Docker (Basics)</div>
+    <p> A solid worker and also willing to learn as the programmings grows</p>
+    <div class="email"> trdurgin@gmail.com</div>
+    <div class="icons">
+      <a href="https://github.com/tydurgin"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/tykeisha-durgin-42a4b9a4/"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+  <div id="project">
+    <h2><span class="font-project">P</span>roject</h2>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/project-twitter.png" class="img-fluid rounded-start" alt="Twitter Project">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">project-twitter</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content.
+              This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

@@ -4,15 +4,91 @@ COMMON
 
 ***********************/
 
-body{
-    font-family: "monospace",sans-serif;
+body {
+  font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color: purple;
+.font-primary {
+  color: purple;
 }
 
-.title-icon{
-    font-size: 20px;
-    font-weight: bold;
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+a.font-black {
+  color: #000 important;
+}
+
+/*********************
+
+About
+
+**********************/
+
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+#about img {
+  border-radius: 50h;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#about .name {
+  font-size: 16px;
+}
+
+#about .vocation {
+  font-size: 17px;
+  color: #ababab;
+  margin-bottom: 10px;
+}
+
+#about .skills {
+  font-size: 14px;
+  color: #00abae;
+}
+
+#about .email {
+  margin-top: 14px;
+  font-size: 30px;
+}
+
+#about .icons {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#about .icons a {
+  color: rgb(220, 35, 245);
+}
+
+/**********************************
+
+PROJECT
+
+***********************************/
+
+#project {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#project h2 {
+  text-align: center;
 }
