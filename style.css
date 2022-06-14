@@ -1,8 +1,8 @@
-/**********************
+/************************
 
 COMMON
 
-***********************/
+*************************/
 
 body {
   font-family: "monospace", sans-serif;
@@ -31,11 +31,11 @@ a.font-black {
   color: #000 important;
 }
 
-/*********************
+/************************
 
 About
 
-**********************/
+************************/
 
 #about {
   margin: 60px auto;
@@ -78,11 +78,11 @@ About
   color: rgb(220, 35, 245);
 }
 
-/**********************************
+/************************
 
 PROJECT
 
-***********************************/
+************************/
 
 #project {
   margin: 60px auto;
@@ -91,4 +91,12 @@ PROJECT
 
 #project h2 {
   text-align: center;
+}
+
+#project .card img {
+  width: 100%;
+}
+
+#project.card-title {
+  font-weight: bold;
 }
