@@ -28,40 +28,12 @@ h2 {
 }
 
 a.font-black {
-  color: #000 important;
-}
-
-/************************
-
-About
-
-************************/
-
-#about {
-  margin: 60px auto;
-  max-width: 400px;
-  text-align: center;
-}
-
-#about img {
-  border-radius: 50h;
-  width: 120px;
-  margin-bottom: 10px;
-}
-
-#about .name {
-  font-size: 16px;
-}
-
-#about .vocation {
-  font-size: 17px;
-  color: #ababab;
   margin-bottom: 10px;
 }
 
 #about .skills {
   font-size: 14px;
-  color: #00abae;
+  color: purple;
 }
 
 #about .email {
@@ -75,7 +47,7 @@ About
 }
 
 #about .icons a {
-  color: rgb(220, 35, 245);
+  color: purple;
 }
 
 /************************
