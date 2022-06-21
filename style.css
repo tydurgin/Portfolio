@@ -1,4 +1,4 @@
-/************************
+/***********************
 
 COMMON
 
@@ -28,14 +28,15 @@ h2 {
 }
 
 a.font-black {
-  margin-bottom: 10px;
+  color: #000 important;
 }
 
-/*****************************
+/************************
 
-ABOUT
+About
 
-******************************/
+************************/
+
 #about {
   margin: 60px auto;
   width: 400px;
@@ -54,12 +55,14 @@ ABOUT
 
 #about .vocation {
   font-size: 17px;
-  color: blueviolet;
+  color: plum;
+  margin-bottom: 10px;
 }
 
 #about .skills {
   font-size: 14px;
   color: purple;
+  margin-bottom: 10px;
 }
 
 #about .email {
@@ -73,28 +76,28 @@ ABOUT
 }
 
 #about .icons a {
-  color: purple;
+  color: rgb(179, 12, 201);
 }
 
 /************************
 
-PROJECT
+PROJECTS
 
 ************************/
 
-#project {
+#projects {
   margin: 60px auto;
   width: 80%;
 }
 
-#project h2 {
+#projects h2 {
   text-align: center;
 }
 
-#project .card img {
+#projects .card img {
   width: 100%;
 }
 
-#project.card-title {
+#projects .card-title {
   font-weight: bold;
 }
